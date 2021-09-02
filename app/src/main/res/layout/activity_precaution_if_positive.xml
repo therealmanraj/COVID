@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrecautionIfPositive"
+    android:background="@color/dark_salmon">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If you're COVID positive follow these guidelines."
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        tools:ignore="HardcodedText"
+        android:id="@+id/positive1"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/positive1"
+            android:id="@+id/positive2">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="1.How to take care of yourself?"
+        android:textColor="@color/black"
+        android:id="@+id/positiveq1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/positiveq1"
+            android:paddingHorizontal="20dp"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:text="Most people who get sick with coronavirus disease will have only a mild illness and should recover at home. You may continue to experience the typical symptoms which include a fever, cough and mild shortness of breath.  Most people with mild illness will start feeling better within a week of first symptoms. Have your healthcare provider’s contact information on hand for emergencies – this could be your GP or your nearest local clinic/ hospital.\n\nGet rest at home and drink enough water/ clear fluids during the day to make sure that your urine stays a pale clear colour.  There are no specific antiviral treatments recommended for coronavirus disease. You can take over-the-counter medications if you have fever or pain. Use these according to the instructions on the packet or label and do not exceed the recommended dose. You should continue taking any other prescribed chronic medication.\n\nMonitor your symptoms carefully. If your symptoms get worse, call your healthcare provider immediately. If you develop any emergency warning signs, get medical attention immediately. Emergency warning signs include: trouble breathing, chest pain or pressure in your chest that does not go away, coughing up blood, becoming confused, severe sleepiness, blue lips or face.  If you have any warning signs, you or a member of your household should call your nearest hospital or emergency services immediately and notify them that you have confirmed coronavirus disease. Avoid taking public transport to the facility – either use private transport (preferably with windows rolled-down) or call emergency services for an ambulance if required. You should wear a face mask if you travel to seek hospital care."/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/positive2"
+            android:id="@id/positive3">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="2.What does my home isolation mean for other people who live in my household?"
+        android:textColor="@color/black"
+        android:id="@+id/positiveq2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/positiveq2"
+            android:paddingHorizontal="20dp"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:text="If you live with other people, as far as possible, you should stay in a separate “sick room” and away from other people in your household. If a separate sick room is not possible, try to keep to one area of your home, at least 2 meters (3 steps) away from other people and wear a disposable face mask to prevent the spread of the virus (through droplets produced by coughing and sneezing) to other people. Cloth masks should not be used.\n\nLimit contact with any pets and animals. Cover your mouth and nose when you sneeze or cough with disposable face tissue.  Dispose of tissues into the waste bin in your sick room/ area and then immediately wash your hands. Wash your hands regularly using soap and water for at least 20 seconds or use alcohol-based hand sanitizers (containing at least 60% alcohol).\n\nClean your sick room/ area every day, first using regular household soap and then after rinsing, using regular household disinfectant containing 0.5% sodium hypochlorite (make this using 1 part 5% bleach to 9 parts water). If someone else cleans your sick room/ area, they should use personal protective equipment including single-use or utility gloves and a plastic apron while cleaning. If you have a home carer, your carer should adhere to home-based infection control recommendations, including use of personal protective equipment.
+
+\n\nDo not share eating utensils, towels, bedding with others in your household. If possible, use a separate bathroom. Clean and disinfect bathrooms at least once a day, first using regular household soap and then after rinsing, using regular household disinfectant containing 0.5% sodium hypochlorite (bleach). If someone else cleans the bathroom that you have used, they should use personal protective equipment including single-use or utility gloves and a plastic apron while cleaning. Utility gloves should be cleaned with soap and water, then decontaminated with 0.5% sodium hypochlorite (bleach). Single-use gloves and plastic aprons should be discarded. If you have to share a bathroom, clean the bathroom after every use.
+
+\n\nYour laundry (clothes, bed linen, towels) should be placed in a laundry bag. Do not shake soiled laundry to avoid spreading the virus through the air.  Machine-wash laundry at 60-90oC with regular detergent. If machine washing is not possible, wash laundry using regular laundry soap and hot water in a large container using a stick to stir. Hang washing outside to dry in the sunlight.
+
+\n\nShared spaces should be well ventilated. If a fan is available, point it out of one window and keep another window open to facilitate increased air exchange in the room.
+
+\n\nIf you share a kitchen, avoid using the kitchen at the same time as other people. If possible, have your meals in your separate room and use separate utensils. If you have a dishwasher, use this to clean and dry your cutlery and crockery. If you do not have a dishwasher, wash crockery and cutlery using your usual washing-up soap and warm water and dry thoroughly.
+
+\n\nDisposable face masks, single-use gloves, plastic aprons, disposable face tissues and any other waste should be discarded in a waste bin with a lid in your separate “sick room”. The government officials who are in contact with you will advise you how to safely dispose of this waste."
+            />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/positive3">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="3.How long will I need to isolate at home?"
+        android:textColor="@color/black"
+        android:id="@+id/positiveq3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/positiveq3"
+            android:paddingHorizontal="20dp"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:text="You can end your home isolation 10 days after your illness began. Your illness began on the day that you first developed symptoms, not on the day that a specimen was collected or on the day that the laboratory test was reported to be positive. If you were tested with no symptoms (note – this is not currently recommended) and had a positive test result, you can end your home isolation 10 days after the positive specimen was collected.
+\n\nAfter a 10-day home isolation period, you are considered to no longer be infectious, i.e. you are very unlikely to transmit infection to others. No follow-up laboratory tests will be done during or at the end of your home isolation period. Laboratory tests that only look for coronavirus genetic material in specimens cannot tell us whether you can still transmit infection to others because a positive test may only pick up pieces of dead virus.  "
+            />
+        </RelativeLayout>
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

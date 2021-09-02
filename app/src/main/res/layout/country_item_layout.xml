@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    android:layout_marginVertical="10dp"
+    android:layout_marginHorizontal="10dp"
+    android:background="@color/aqua">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:background="@color/lawn_green">
+
+        <TextView
+            android:id="@+id/countryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INDIA"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:fontFamily="@string/bold"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp" />
+
+        <ImageView
+
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_toEndOf="@+id/countryName"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:id="@+id/countryImage"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/countryCases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@string/regular"
+            android:text="123"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

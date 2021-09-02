@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">COVID</string>
+    <string name="bold" tools:ignore="ReferenceType">@font/bold</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/regular</string>
+    <string name="light" tools:ignore="ReferenceType">@font/light</string>
+    <string name="covid_19_fighter">COVID-19 Fighter</string>
+    <string name="google_map_key">AIzaSyAHkgGs27T7u9FPnjITXuSjwPCpLX4KjWk</string>
+    <string name="nearby_url_api">https://maps.googleapis.com/maps/api/place/nearbysearch/output?parameters
+</string>
+</resources>

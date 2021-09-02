@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrecautionIfNegative"
+    android:background="@color/lime_green">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If you are COVID negative follow these guidelines."
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                tools:ignore="HardcodedText"
+                android:id="@+id/negative1"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/negative1"
+                android:id="@+id/negative2">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="1.Follow local guidance:"
+                    android:textColor="@color/black"
+                    android:id="@+id/negativeq1"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/negativeq1"
+                    android:paddingHorizontal="20dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:text="Check to see what national, regional and local authorities are advising so you have the most relevant information for where you are."
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/negative2"
+                android:id="@id/negative3">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="2.Keep your distance:"
+                    android:textColor="@color/black"
+                    android:id="@+id/negativeq2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/negativeq2"
+                    android:paddingHorizontal="20dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:text="Stay at least 1 metre away from others, even if they don’t appear to be sick, since people can have the virus without having symptoms."
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/negative3"
+                android:id="@+id/negative4">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/negativeq3"
+                    android:textSize="15dp"
+                    android:text="3.Wear a mask:"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/negativeq3"
+                    android:paddingHorizontal="20dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:text="Wear a well-fitting three-layer mask, especially when you can’t physically distance, or if you’re indoors. Clean your hands before putting on and taking off a mask."/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/negative4"
+                android:id="@+id/negative5">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="4.Space:"
+                    android:textColor="@color/black"
+                    android:id="@+id/negativeq4"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/negativeq4"
+                    android:paddingHorizontal="20dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:text="Avoid crowded places, poorly ventilated, indoor locations and avoid prolonged contact with others. Spend more time outdoors than indoors."
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/negative5"
+                android:id="@+id/negative6">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="5.Ventilation is important:"
+                    android:textColor="@color/black"
+                    android:id="@+id/negativeq5"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/negativeq5"
+                    android:paddingHorizontal="20dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:text="Open windows when indoors to increase the amount of outdoor air.
+Avoid touching surfaces, especially in public settings or health facilities, in case people infected with COVID-19 have touched them. Clean surfaces regularly with standard disinfectants."/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/negative6"
+                android:id="@+id/negative7">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="Others"
+                    android:textColor="@color/black"
+                    android:id="@+id/negativeq6"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/negativeq6"
+                    android:paddingHorizontal="20dp"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:text="Frequently clean your hands with soap and water, or an alcohol-based hand rub. If you can, carry alcohol-based rub with you and use it often.
+\nCover your coughs and sneezes with a bent elbow or tissue, throwing used tissues into a closed bin right away. Then wash your hands or use an alcohol-based hand rub.
+\nGet vaccinated: When it’s your turn, get vaccinated. Follow local guidance and recommendations about vaccination."
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
